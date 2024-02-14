@@ -6,12 +6,12 @@ import Navbar from './components/Navbar'
 function App() {
 
   return (
-    <>
+    <div className='overflow-x-hidden '>
       <Navbar/>
       <Home/>
       <About/>
       <Contact/>
-    </>
+    </div>
   )
 }
 

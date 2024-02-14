@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+  @apply hover:scrollbar-thumb-sky-500 active:scrollbar-thumb-sky-400 h-auto scrollbar scrollbar-thumb-slate-700 scrollbar-track-slate-300 overflow-y-scroll;
+}
 
 .nunito-sans {
   font-family: "Nunito Sans", sans-serif;
