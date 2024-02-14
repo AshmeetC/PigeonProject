@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 
-const Navbar: React.FC = () => {
+function Navbar() {
   const [highlightStyle, setHighlightStyle] = useState<React.CSSProperties>({});
   const navRef = useRef<HTMLDivElement>(null);
 
@@ -18,22 +18,22 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <div ref={navRef} onMouseLeave={handleMouseLeave} className="w-screen py-3 px-3 flex gap-5 justify-center relative">
+    <nav ref={navRef} onMouseLeave={handleMouseLeave} className="w-screen py-5 px-3 flex gap-5 justify-center backdrop-blur-md fixed">
       <div className="absolute bottom-0 h-1 bg-black transition-all" style={highlightStyle} />
-      {['Home', 'Projects', 'About', 'Contact'].map((item, index) => (
+      {['Home', 'About', 'Contact'].map((item, index) => (
         <a
           key={index}
-          href={`/${item.toLowerCase()}`}
+          href={`/#${item.toLowerCase()}`}
           onMouseEnter={handleMouseEnter}
-          className="px-5 py-3 relative overflow-hidden"
+          className="px-5 py-3 relative overflow-hidden hover:font-bold"
         >
-          <span className="transition-all duration-300 ease-in-out">
+          <span className="transition-all duration-300 ease-in-out ">
             {item}
           </span>
         </a>
       ))}
-    </div>
+    </nav>
   );
-};
+}
 
 export default Navbar;
