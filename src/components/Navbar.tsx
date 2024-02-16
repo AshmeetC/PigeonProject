@@ -30,7 +30,7 @@ function Navbar() {
         <div className="absolute bottom-0 h-1 bg-black transition-all" style={highlightStyle} />
         {['Home', 'About', 'Contact'].map((item, index) => (
           <a
-            key={index}
+            key={index }
             href={`/#${item.toLowerCase()}`}
             onMouseEnter={handleMouseEnter}
             className="px-5 py-3 relative overflow-hidden hover:font-extrabold"
