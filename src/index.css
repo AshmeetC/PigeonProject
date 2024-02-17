@@ -4,7 +4,7 @@
 
 html{
   scroll-behavior: smooth;
-  @apply hover:scrollbar-thumb-sky-500 active:scrollbar-thumb-sky-400 h-auto scrollbar scrollbar-thumb-slate-700 scrollbar-track-slate-300 overflow-y-scroll;
+  @apply scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar scrollbar-thumb-slate-700 scrollbar-track-slate-300 h-32 overflow-y-scroll bg-slate-300;
 }
 
 .nunito-sans {
@@ -16,3 +16,4 @@ html{
     "wdth" 100,
     "YTLC" 500;
 }
+
