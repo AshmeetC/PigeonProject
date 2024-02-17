@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion } from "framer-motion"
 
 function Contact() {
   const [username, setName] = useState('');
@@ -52,7 +53,9 @@ function Contact() {
       // </div>
 
     <div className="h-full py-96 w-screen bg-orange-300 flex justify-center items-center" id="contact">
-      <div className="bg-slate-300 border-red-400 rounded-3xl">
+      
+      <motion.div initial={{opacity : 0, y: 400}} whileInView={{opacity:1, y: 0}}
+    transition={{ ease: "easeOut", duration: 0.5 }} className="bg-slate-300 border-red-400 rounded-3xl">
         <form className="justify-center my-6" onSubmit={handleSubmit} method="post">
           <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
@@ -81,7 +84,7 @@ function Contact() {
           <button type="submit" className="bg-transparent hover:text-black transition-all duration-300 text-black-700 font-semibold hover:bg-slate-200 py-2 px-4 border-2 rounded">Submit</button>
         </div>
       </form>
-    </div>
+    </motion.div>
   </div>
     );
 }
