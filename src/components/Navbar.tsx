@@ -1,5 +1,7 @@
 // Credits: Eric Chen 
 import React, { useState, useRef } from 'react';
+import Team from "./Team";
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 function Navbar() {
   const [highlightStyle, setHighlightStyle] = useState<React.CSSProperties>({});
@@ -19,7 +21,8 @@ function Navbar() {
   };
 
   return (
-    <nav ref={navRef} onMouseLeave={handleMouseLeave} className="w-screen py-5 px-3 flex justify-between items-center backdrop-blur-md fixed">
+  
+    <nav ref={navRef} onMouseLeave={handleMouseLeave} className="w-screen py-5 px-8 flex justify-between items-center backdrop-blur-md fixed">
       <a
         href="/#home"
         className="px-5 py-3 relative overflow-hidden justify-start text-2xl hover:font-bold"
@@ -42,16 +45,17 @@ function Navbar() {
       <div className="flex gap-5 justify-end">
         <div className="absolute bottom-0 h-1 bg-black transition-all" style={highlightStyle} />
         {['Team', 'Events'].map((item, index) => (
-          <a
+          <Link
             key={index}
-            href={`/${item.toLowerCase()}`}
+            to={`/${item.toLowerCase()}`}
             className="px-5 py-3 relative overflow-hidden hover:font-extrabold"
           >
             <span className="transition-all duration-300 ease-in-out">{item}</span>
-          </a>
+          </Link>
         ))}
       </div>
     </nav>
+
   );
 }
 

@@ -51,8 +51,8 @@ function Contact() {
       //   </form>
       // </div>
 
-    <div className="h-screen w-screen bg-orange-300 flex justify-center items-center" id="contact">
-      <div className="bg-slate-300 border-red-400 h-3/5 rounded-3xl">
+    <div className="h-full py-96 w-screen bg-orange-300 flex justify-center items-center" id="contact">
+      <div className="bg-slate-300 border-red-400 rounded-3xl">
         <form className="justify-center my-6" onSubmit={handleSubmit} method="post">
           <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
