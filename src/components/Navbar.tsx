@@ -1,7 +1,6 @@
 // Credits: Eric Chen 
 import React, { useState, useRef } from 'react';
-import Team from "./Team";
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [highlightStyle, setHighlightStyle] = useState<React.CSSProperties>({});

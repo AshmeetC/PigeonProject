@@ -1,6 +1,6 @@
 // Credits: Eric Chen 
 import { motion } from 'framer-motion';
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 function Home() {
     const targetNumber = 138;
