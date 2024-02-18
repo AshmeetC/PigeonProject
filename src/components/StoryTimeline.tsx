@@ -8,7 +8,7 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 
 export default function StoryTimeline() {
   return (
-    <Timeline position="alternate" className='text-cyan-600 mb-20'>
+    <Timeline position="alternate" className='text-white mb-20'>
       <TimelineItem>
         <TimelineOppositeContent color="text.secondary">
           <span className='text-2xl'>

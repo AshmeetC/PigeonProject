@@ -16,7 +16,7 @@ function Home() {
     }, [currentNumber, targetNumber]);
 
     return (
-        <div id="home" className="h-screen w-screen bg-orange-100 flex items-center justify-center flex-col space-y-4">
+        <div id="home" className="h-screen w-screen flex items-center justify-center flex-col space-y-4">
             <div className='items-center justify-between'>
                 <div className='flex flex-col justify-center lg:w-auto'>
                     <motion.div initial={{ width: 0 }}
@@ -28,7 +28,7 @@ function Home() {
                     </motion.div>
                 </div>
             </div>
-            <div className='bg-orange-300 rounded px-10 py-10 w-60 h-50 flex items-center justify-center'>
+            <div className='bg-[#2f9fcf] rounded px-10 py-10 w-60 h-50 flex items-center justify-center'>
                 <p className="text-7xl font-bold">{currentNumber}</p>
             </div>
             <div>
