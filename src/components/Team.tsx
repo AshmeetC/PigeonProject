@@ -2,9 +2,9 @@ import { motion } from "framer-motion"
 function Team() {
 
     return (
-        <div id="team" className="items-center min-h-screen w-screen flex-col space-y-4 flex justify-center pt-32">
+        <div id="team" className="items-center min-h-screen w-screen flex-col space-y-4 flex justify-center">
             <div className='items-center justify-between'>
-                <div className='flex flex-col justify-center lg:w-auto'>
+                <div className='flex flex-col justify-center lg:w-auto min-h-screen'>
                     <motion.div initial={{ width: 50 }}
                     animate={{ width: "100%" }}
                     transition={{ ease: "easeInOut", duration: 0.7 }} className="overflow-hidden text-center font-extrabold  leading-normal tracking-normal lg:whitespace-nowrap lg:text-left lg:text-[3.6875rem] ">

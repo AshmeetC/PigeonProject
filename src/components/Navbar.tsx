@@ -26,7 +26,7 @@ function Navbar() {
 
   return (
     <>
-      <nav ref={navRef} onMouseLeave={handleMouseLeave} className="invisible md:visible w-screen py-5 px-8 flex justify-between items-center backdrop-blur-md fixed">
+      <nav ref={navRef} onMouseLeave={handleMouseLeave} className="z-10 invisible md:visible w-screen py-5 px-8 flex justify-between items-center backdrop-blur fixed">
         <a
           href="/#home"
           className="px-5 py-3 relative overflow-hidden justify-start text-2xl hover:font-bold"
@@ -85,7 +85,7 @@ function Navbar() {
         </div>
       </nav>
       {/*MOBILE NAVBAR*/}
-      <nav className="md:hidden w-screen fixed top-0 right-0 p-4">
+      <nav className="z-10 md:hidden w-screen fixed top-0 backdrop-blur right-0 p-4">
         <div className="flex justify-between items-center">
         <a
           href="/#home"

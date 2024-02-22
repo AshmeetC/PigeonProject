@@ -2,17 +2,64 @@ import { motion } from "framer-motion"
 
 function Events() {
     return (
-        <div id="events" className="text-5xl w-screen flex justify-center text-center min-h-screen">  
-            <div className='flex flex-col justify-center lg:w-auto'>
+        <div id="events" className="text-xl w-screen flex flex-col items-center text-center min-h-screen">
+            <div className='flex flex-col justify-center lg:w-auto min-h-screen'>
                 <motion.div initial={{ width: 50 }}
                     animate={{ width: "100%" }}
                     transition={{ ease: "easeInOut", duration: 0.7 }} className="overflow-hidden text-center font-extrabold  leading-normal tracking-normal lg:whitespace-nowrap lg:text-left lg:text-[3.6875rem] ">
-                        <div>
-                            <h1 className="text-7xl pb-10">Cirriculum</h1>
-                        </div>
+                    <div>
+                        <h1 className="text-7xl pb-10">Cirriculum</h1>
+                    </div>
                 </motion.div>
             </div>
-            
+            <div className="items-center gap-10 pb-10 text-left px-10">
+                <div className="">
+                    <p>Project Pigeon's tutoring services are currently centered around preparing
+                        elementary level students for the upcoming State of Texas Assessment of Academic
+                        Readiness (STAAR) by focusing on Texas Essential Knowledge and Skills (TEKS). This
+                        will consist of mentorship surrounding basic subjects such as Math, English, Writing,
+                        and Science.</p><br />
+                    <p>We also include programs for ESL children to receive individual attention from our
+                        volunteers.</p><br />
+                </div>
+                    <header className="font-extrabold">
+                        <h2>Grades 1, 2 & 3 Focus</h2>
+                    </header>
+                    <ul className="list-disc">
+                        <li>Developing foundational language skills- understanding vocabulary, thinking
+                            critically, and becoming familiar with various types of texts</li>
+                        <li>Learning to form ideas using multiple texts</li>
+                        <li>Understanding author's purpose and craft</li>
+                        <li>Using elements of writing to compose text around personal experiences,
+                            informational subjects, and persuasive topics</li>
+                        <li>Familiarizing with numerical operations, numbers up to 100,000, fractions, two-
+                            dimensional figures, and basic financial literacy</li>
+                    </ul>
+                    <header className="font-extrabold">
+                        <h2>Grade 4 Focus</h2>
+                    </header>
+                    <ul className="list-disc">
+                        <li>Recognizing and analyzing literary elements across traditional, contemporary,
+                            classical, and diverse literary texts</li>
+                        <li>Understanding how author's choices influence meaning within texts</li>
+                        <li>Revising and editing text</li>
+                        <li>Composing written text with a claim, organization, and development</li>
+                        <li>Getting comfortable with numerical representations, computations, geometry
+                            and measurement, data analysis, and personal financial literacy</li>
+                    </ul>
+                    <header className="font-extrabold">
+                        <h2>Grade 5 Focus</h2>
+                    </header>
+                    <ul className="list-disc">
+                        <li>Explaining structure of ideas within texts</li>
+                        <li>Recognizing characteristics of different styles of text</li>
+                        <li>Creating and developing a logical flow of ideas in writing</li>
+                        <li>Using operations with decimals, representing equations with graphs & tables,
+                            simplifying expressions, and geometry</li>
+                        <li>Exploring science concepts related to matter and energy, organisms, and
+                            scientific investigation</li>
+                    </ul>
+            </div>
         </div>
     );
 }
