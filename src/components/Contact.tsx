@@ -53,15 +53,27 @@ function Contact() {
     // </div>
 
     <div className="h-screen w-screen flex flex-col justify-center items-center" id="contact">
-      <div className='items-center justify-between'>
-        <div className='flex flex-col justify-center lg:w-auto'>
-          <motion.div initial={{ width: 30 }}
+      <div className='items-center justify-center text-center'>
+        <div className='flex flex-col justify-center items-center lg:w-auto'>
+          <motion.div initial={{ width: 0 }}
             whileInView={{ width: "100%" }}
-            transition={{ ease: "easeInOut", duration: 0.5 }} className="overflow-hidden text-center font-extrabold  leading-normal tracking-normal lg:whitespace-nowrap lg:text-left lg:text-[3.6875rem] ">
+            transition={{ ease: "easeInOut", duration: 0.7 }} className="overflow-hidden text-center font-extrabold  leading-normal tracking-normal lg:whitespace-nowrap lg:text-left lg:text-[3.6875rem] ">
             <div>
-              <h1 className="text-7xl pb-10">
+              <h1 className="text-7xl pb-10 text-center">
                 Contact
               </h1>
+            </div>
+          </motion.div>
+        </div>
+
+        <div className='flex flex-col justify-center items-center lg:w-auto'>
+          <motion.div initial={{ y:60, opacity: 0}}
+            whileInView={{ y:0, opacity: 1}}
+            transition={{ ease: "easeInOut", duration: 0.5 }} className="overflow-hidden text-center font-extrabold  leading-normal tracking-normal lg:whitespace-nowrap lg:text-left lg:text-[3.6875rem] ">
+            <div>
+                <p className="text-xl pb-10 text-center">Email: projectpigeontx@gmail.com</p>
+                <p className="text-xl pb-10 text-center">Phone: +1 (917)-870-5551</p>
+
             </div>
           </motion.div>
         </div>
