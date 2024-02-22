@@ -1,4 +1,4 @@
-// Credits: Eric Chen 
+// Co-Authored by Ashmeet Chhabra and Eric Chen 
 import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 

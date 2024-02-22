@@ -1,4 +1,4 @@
-// Credits: Eric Chen 
+// Co-Authored by Ashmeet Chhabra and Eric Chen 
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
 

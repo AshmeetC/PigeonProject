@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 
-// Credits: Eric Chen 
+// Co-Authored by Ashmeet Chhabra and Eric Chen 
 function About() {
     return (
         
