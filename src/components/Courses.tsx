@@ -11,6 +11,29 @@ function Events() {
                         <h1 className="text-7xl pb-10">Cirriculum</h1>
                     </div>
                 </motion.div>
+                <motion.div initial={{ y: 100, opacity: 0 }}
+                        animate={{ y: 0, opacity: 1 }}
+                        transition={{ ease: "easeInOut", duration: 1 }}>
+                        <div className='flex flex-col justify-center items-center translate-y-24'>
+                            <svg
+                                aria-hidden="true"
+                                focusable="false"
+                                data-prefix="fas"
+                                data-icon="angles-down"
+                                className="svg-inline--fa fa-angles-down fa-3x text-white"
+                                role="img"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 448 512"
+                                width={50}
+                                height={50}
+                            >
+                                <path
+                                    fill="currentColor"
+                                    d="M246.6 470.6c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 402.7 361.4 265.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3l-160 160zm160-352l-160 160c-12.5 12.5-32.8 12.5-45.3 0l-160-160c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L224 210.7 361.4 73.4c12.5-12.5 32.8-12.5 45.3 0s12.5 32.8 0 45.3z"
+                                ></path>
+                            </svg>
+                        </div>
+                    </motion.div>
             </div>
             <div className="items-center gap-10 pb-10 text-left px-10">
                 <div className="">
