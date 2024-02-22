@@ -25,10 +25,6 @@ function Navbar() {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
-  const setIsOnMainPage = () => {
-    setIsMainPage(!isMainPage);
-  }
-
   return (
     <>
       <nav ref={navRef} onMouseLeave={handleMouseLeave} className="invisible md:visible w-screen py-5 px-8 flex justify-between items-center backdrop-blur-md fixed">
