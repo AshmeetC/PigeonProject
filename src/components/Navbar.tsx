@@ -6,7 +6,6 @@ function Navbar() {
   const [highlightStyle, setHighlightStyle] = useState<React.CSSProperties>({});
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const navRef = useRef<HTMLDivElement>(null);
-  const [isMainPage, setIsMainPage] = useState(true); 
 
   const handleMouseEnter = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     const { offsetLeft, offsetWidth } = event.currentTarget;
