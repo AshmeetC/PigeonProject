@@ -55,17 +55,19 @@ function Contact() {
     <div className="h-screen w-screen flex flex-col justify-center items-center" id="contact">
       <div className='items-center justify-between'>
           <div className='flex flex-col justify-center lg:w-auto'>
-          <motion.div initial={{ width: 0 }}
+          <motion.div initial={{ width: 30 }}
                     whileInView={{ width: "100%" }}
-                    transition={{ ease: "easeInOut", duration: 0.7 }} className="overflow-hidden text-center font-extrabold  leading-normal tracking-normal lg:whitespace-nowrap lg:text-left lg:text-[3.6875rem] ">
+                    transition={{ ease: "easeInOut", duration: 0.5 }} className="overflow-hidden text-center font-extrabold  leading-normal tracking-normal lg:whitespace-nowrap lg:text-left lg:text-[3.6875rem] ">
                     <div>
-                        <h1 className="text-7xl pb-10">Contact Us</h1>
+                        <h1 className="text-7xl pb-10">
+                          Contact
+                        </h1>
                     </div>
                 </motion.div>
           </div>
       </div>
       <motion.div initial={{opacity : 0, y: 50}} whileInView={{opacity:1, y: 0}}
-    transition={{ ease: "easeOut", duration: 0.5 }} className="bg-slate-300 border-red-400 rounded-3xl w-3/5">
+    transition={{ ease: "easeOut", duration: 0.7 }} className="bg-slate-300 border-red-400 rounded-3xl w-3/5">
         <form className="justify-center my-6" onSubmit={handleSubmit} method="post">
           <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">

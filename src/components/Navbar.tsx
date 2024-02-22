@@ -68,7 +68,7 @@ function Navbar() {
       </div>
       <div className="flex gap-5 justify-end">
         <div className="absolute bottom-0 h-1 bg-black transition-all" style={highlightStyle} />
-        {['Team', 'Events'].map((item, index) => (
+        {['Team', 'Courses'].map((item, index) => (
           <Link
             key={index}
             to={`/${item.toLowerCase()}`}
