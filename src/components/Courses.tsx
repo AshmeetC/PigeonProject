@@ -45,10 +45,10 @@ function Events() {
                     <p>We also include programs for ESL children to receive individual attention from our
                         volunteers.</p><br />
                 </div>
-                    <header className="font-extrabold">
-                        <h2>Grades 1, 2 & 3 Focus</h2>
+                    <header className="font-extrabold text-3xl">
+                        <h2 className="">Grades 1, 2 & 3 Focus</h2>
                     </header>
-                    <ul className="list-disc">
+                    <ul className="list-disc mb-10 pl-10">
                         <li>Developing foundational language skills- understanding vocabulary, thinking
                             critically, and becoming familiar with various types of texts</li>
                         <li>Learning to form ideas using multiple texts</li>
@@ -58,10 +58,10 @@ function Events() {
                         <li>Familiarizing with numerical operations, numbers up to 100,000, fractions, two-
                             dimensional figures, and basic financial literacy</li>
                     </ul>
-                    <header className="font-extrabold">
+                    <header className="font-extrabold text-3xl">
                         <h2>Grade 4 Focus</h2>
                     </header>
-                    <ul className="list-disc">
+                    <ul className="list-disc mb-10 pl-10">
                         <li>Recognizing and analyzing literary elements across traditional, contemporary,
                             classical, and diverse literary texts</li>
                         <li>Understanding how author's choices influence meaning within texts</li>
@@ -70,10 +70,10 @@ function Events() {
                         <li>Getting comfortable with numerical representations, computations, geometry
                             and measurement, data analysis, and personal financial literacy</li>
                     </ul>
-                    <header className="font-extrabold">
+                    <header className="font-extrabold text-3xl">
                         <h2>Grade 5 Focus</h2>
                     </header>
-                    <ul className="list-disc">
+                    <ul className="list-disc mb-10 pl-10">
                         <li>Explaining structure of ideas within texts</li>
                         <li>Recognizing characteristics of different styles of text</li>
                         <li>Creating and developing a logical flow of ideas in writing</li>

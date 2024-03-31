@@ -41,6 +41,7 @@ function Team() {
                 <motion.div initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ ease: "easeInOut", duration: 0.5 }} className="flex flex-col lg:flex-row mb-10 gap-10  bg-[#2f9fcf] rounded-3xl">
                     <div className="py-8 px-8 bg-[#7494a0] rounded-2xl flex flex-col items-center justify-center opacity-75">
                         <img className="w-64 h-64 object-cover" src="https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg" alt="Description of the image" />
+                        <h1 className="mt-4 text-xl">Manas Aysola | Co-Founder</h1>
                         <p className="mt-4 text-center">Some text underneath the image Some text underneath the image Some text underneath the image Some text underneath the image</p>
                     </div>
                 </motion.div>
@@ -48,6 +49,7 @@ function Team() {
                 <motion.div initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ ease: "easeInOut", duration: 0.5 }} className="flex flex-col lg:flex-row mb-10 gap-10  bg-[#2f9fcf] rounded-3xl">
                     <div className="py-8 px-8 bg-[#7494a0] rounded-2xl flex flex-col items-center justify-center opacity-75">
                         <img className="w-64 h-64 object-cover" src="https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg" alt="Description of the image" />
+                        <h1 className="mt-4 text-xl">Allison Gutierrez | Co-Founder</h1>
                         <p className="mt-4 text-center">Some text underneath the image Some text underneath the image Some text underneath the image Some text underneath the image</p>
                     </div>
                 </motion.div>
@@ -55,6 +57,7 @@ function Team() {
                 <motion.div initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ ease: "easeInOut", duration: 0.5 }} className="flex flex-col lg:flex-row mb-10 gap-10  bg-[#2f9fcf] rounded-3xl">
                     <div className="py-8 px-8 bg-[#7494a0] rounded-2xl flex flex-col items-center justify-center opacity-75">
                         <img className="w-64 h-64 object-cover" src="https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg" alt="Description of the image" />
+                        <h1 className="mt-4 text-xl">Shiva Uppaladinni | Officer</h1>
                         <p className="mt-4 text-center">Some text underneath the image Some text underneath the image Some text underneath the image Some text underneath the image</p>
                     </div>
                 </motion.div>
@@ -62,6 +65,7 @@ function Team() {
                 <motion.div initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ ease: "easeInOut", duration: 0.5 }} className="flex flex-col lg:flex-row mb-10 gap-10  bg-[#2f9fcf] rounded-3xl">
                     <div className="py-8 px-8 bg-[#7494a0] rounded-2xl flex flex-col items-center justify-center opacity-75">
                         <img className="w-64 h-64 object-cover" src="https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg" alt="Description of the image" />
+                        <h1 className="mt-4 text-xl">Ashmeet Chhabra | Technology Officer</h1>
                         <p className="mt-4 text-center">Some text underneath the image Some text underneath the image Some text underneath the image Some text underneath the image</p>
                     </div>
                 </motion.div>
@@ -69,6 +73,7 @@ function Team() {
                 <motion.div initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ ease: "easeInOut", duration: 0.5 }} className="flex flex-col lg:flex-row mb-10 gap-10  bg-[#2f9fcf] rounded-3xl">
                     <div className="py-8 px-8 bg-[#7494a0] rounded-2xl flex flex-col items-center justify-center opacity-75">
                         <img className="w-64 h-64 object-cover" src="https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg" alt="Description of the image" />
+                        <h1 className="mt-4 text-xl">Eric Chen | Technology Officer</h1>
                         <p className="mt-4 text-center">Some text underneath the image Some text underneath the image Some text underneath the image Some text underneath the image</p>
                     </div>
                 </motion.div>
@@ -76,6 +81,7 @@ function Team() {
                 <motion.div initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ ease: "easeInOut", duration: 0.5 }} className="flex flex-col lg:flex-row mb-10 gap-10  bg-[#2f9fcf] rounded-3xl">
                     <div className="py-8 px-8 bg-[#7494a0] rounded-2xl flex flex-col items-center justify-center opacity-75">
                         <img className="w-64 h-64 object-cover" src="https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg" alt="Description of the image" />
+                        <h1 className="mt-4 text-xl">Name | Position (founder)</h1>
                         <p className="mt-4 text-center">Some text underneath the image Some text underneath the image Some text underneath the image Some text underneath the image</p>
                     </div>
                 </motion.div>
